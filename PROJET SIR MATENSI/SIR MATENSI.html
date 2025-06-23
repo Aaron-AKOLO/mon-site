@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MATENSI Market</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #004080;
+      --secondary-color: #007bff;
+      --light-bg: #f8f9fa;
+      --dark-bg: #fff;
+      --accent-color: #17a2b8;
+    }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.item {
+  width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 15px;
+  transition: transform 0.3s;0
+}
+
+.item:hover {
+  transform: scale(1.03);
+}
+
+.item img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain; /* ou 'cover' selon effet souhaité */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #111;
+  color: white;
+  border-top: 5px; 
+}
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+body {
+  background-color: #ccc;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+  color: white;
+  padding: 3rem 1rem; 
+  margin: 0px;
+  padding: 0px;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 1000;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+#heureDate {
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.intro p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.section h3 {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.item {
+  background: var(--dark-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item h4 {
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+}
+
+.formulaire {
+  background: var(--dark-bg);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.formulaire h2 {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.formulaire form {
+  display: grid;
+  gap: 1rem;
+}
+
+.formulaire input,
+.formulaire textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formulaire button {
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  background: var(--accent-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.formulaire button:hover {
+  background: #138496;
+}
+
+footer {
+  background: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1><center>MATENSI Market</center></h1>
+    
+<div id="heureDate"></div>
+  </header>  <main>
+    <body>
+      <p>Accessoires cellulaires et informatiques de qualité, au meilleur prix</p>
+      <p>Téléphone : +243 984 665 730 | Adresse : MONT NGAFULA BIANDA, 42 Av. NTELA</p>
+    </body>
+    <section class="intro">
+      <h2>Bienvenue chez MATENSI Market</h2>
+      <p>Nous vous proposons une large gamme d’accessoires cellulaires et informatiques de qualité supérieure, avec un service client personnalisé et professionnel.</p>
+    </section><section class="section">
+  <h3>Accessoires Cellulaires</h3>
+  <div class="grid">
+    <div class="item"><img src="Images/DONC.jpg" alt="Écouteurs P9"><h4>Écouteurs P9</h4><p>Son clair, autonomie longue durée.</p></div>
+    <div class="item"><img src="Images/OU.jpg" alt="Boîtier Oraimo"><h4>Boîtier Oraimo</h4><p>Protection stylée et robuste.</p></div>
+    <div class="item"><h4>Chargeur Fast</h4><p>Recharge ultra rapide garantie.</p></div>
+    <div class="item"><h4>AirPods</h4><p>Qualité Apple au rendez-vous.</p></div>
+    <div class="item"><h4>Chargeur Tecno</h4><p>Optimisé pour Tecno et autres marques.</p></div>
+    <div class="item"><img src="Images/OR.jpgS" alt="AirPods 2ème Génération"><h4>AirPods 2ème Génération</h4><p>Expérience audio améliorée.</p></div>
+    <div class="item"><img src="Images/MAIS.jpg" alt="AirPods Max"><h4>AirPods Max</h4><p>Audio haute fidélité pour audiophiles.</p></div>
+    <div class="item"><h4>Pochette</h4><p>Style et protection en un seul accessoire.</p></div>
+    <div class="item"><img src="Images/ET.jpg" alt="Écouteurs P47"><h4>Écouteurs P47</h4><p>Confort, style et performance.</p></div>
+    <div class="item"><h4>Anti-casse</h4><p>Film de protection hautement résistant.</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <h3>Accessoires Informatiques</h3>
+  <div class="grid">
+    <div class="item"><h4>Clé USB</h4><p>Stockage rapide et fiable.</p></div>
+    <div class="item"><h4>Modem</h4><p>Connexion Internet stable partout.</p></div>
+    <div class="item"><h4>Disque Dur</h4><p>Grande capacité, sécurité assurée.</p></div>
+    <div class="item"><h4>RAM</h4><p>Optimisez la performance de votre PC.</p></div>
+    <div class="item"><h4>Curseur</h4><p>Accessoire ergonomique pour ordinateurs.</p></div>
+  </div>
+</section>
+
+<section class="formulaire">
+  <h2>Contactez-Nous</h2>
+  <form id="formContact">
+    <input type="text" name="prenom" placeholder="Prénom" required>
+    <input type="text" name="nom" placeholder="Nom" required>
+    <input type="text" name="adresse" placeholder="Adresse" required>
+    <input type="email" name="email" placeholder="E-mail" required>
+    <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+  </main>  <footer>
+    <p>&copy; 2025 MATENSI Market — Tous droits réservés</p>
+  </footer>  <script>
+    function updateHeureDate() {
+      const now = new Date();
+      const date = now.toLocaleDateString('fr-FR');
+      const time = now.toLocaleTimeString('fr-FR');
+      document.getElementById('heureDate').textContent = Nous sommes le ${date}, il est ${time};
+    }
+
+    setInterval(updateHeureDate, 1000);
+    updateHeureDate();
+
+    document.getElementById('formContact').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert("Merci pour votre message ! Nous vous contacterons très bientôt.");
+      this.reset();
+    });
+  </script></body>
+</html>
